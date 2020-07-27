@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html lang="en-gb">
     <head>
-        <title>Página pessoal de Vasco Vilhena</title>
+        <title>Vasco Vilhena's person page</title>
         <meta charset="utf-8">
         <meta name="description" content = "This is the profile page for Vasco Vilhena">
-        <meta name="keywords" content ="Software engineering, HTML, CSS, JavaScript, Microsoft Stack">
+        <meta name="keywords" content ="Musician, Software engineering, Csharp, C#, HTML, CSS, JavaScript, Microsoft Stack">
         <meta name="author" content ="Vasco Vilhena">
         <meta name="viewport" content ="width=device-width", initial.scale="1">
-        <noscript>Your browser does not support scripting, which is fine because nobody is perfect</noscript>
+        <noscript>Your browser does not support scripting, I'm trully sorry for that</noscript>
+        <base href="">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="public/lib/bootstrap/dist/css/bootstrap.min.css" /><link rel="stylesheet" href="public/lib/font-awesome/css/all.css" />
+        <link rel="stylesheet" href="public/lib/font-awesome/css/all.css" />
         <link rel="stylesheet" href="public/css/styles.css">
     </head>
-    <body>
+    <body class="vv-bg-general">
         <header>
-            <h1></h1>
-            <h2></h2>
-            <h3></h3>
-            <h4></h4>
-            <h5></h5>
-            <h6></h6>
-            <!--(Comentário) target="_blank", "_self", "_top", "_parent"-->
-            <!-- <p>parágrafo 1</p>          
-            <p>parágrafo 2</p> 
-            <button>Click Here! It won't do anything</button>          -->
+            <nav class="topnav ml-auto mr-auto">
+                <a class="active">This is Vasco:</a>
+                <a href="musician.html">a Musician</a>
+                <a href="programmer.html">a Programmer</a>
+                <a href="sound-engineer.html">a Sound Engineer</a>
+                <a href="contacts.html">a Contact to have</a>
+            </nav>
         </header>
         <main>
-            
-            <div class="form">
-                <div class="name-form">
-                    <label>Name</label>
-                    <input type="text" id="name-input">
-                    <span id="name-error-span" class="error">Introduza um nome</span>
+            <div class="row mx-auto">
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 mb-4 mt-4">
+                    <div class="card vv-card ">
+                        <img src="public/images/vv-index.png" class="card-img-top" alt="Foto da pessoa em questão">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><i>Jack of all trades, master of.. some!</i></h5>
+                            <div class="vv-just-text">
+                                <p class="card-text">While in high-school, Vasco studied sciences and technology, with humble but steady scores. Shortly thereafter, he pursued a career of music and sound engineering, learning harmony, music theory and to play the piano, as well as fiddling with the control knobs and faders in a mixing table.</p>
+                                <p class="card-text">After concluding his studies on said subjects, Vasco realized he'd much prefer not to depend on its financial outcomes, fearing he might compromise his projects.</p>
+                                <p class="card-text">Hence, decided to seek to deepen knowledge in an area in which he was always been curious: programming! Deep down, what truly mesmerizes Vasco is the possibility of creating new things and achieving simple, yet virtuous solutions.</p>
+                                <p></p>
+                            </div>
+                            <div class="vv-color-general text-center mt-5">
+                                <a href="musician.html" class="btn btn-dark fad fa-gramophone"></a>
+                                <a href="programmer.html" class="btn btn-dark fad fa-computer-classic"></a>
+                                <a href="sound-engineer.html" class="btn btn-dark fad fa-sliders-v"></a>
+                                <a href="contacts.html" class="btn btn-dark fad fa-id-badge"></a>
+                            </div>                  
+                        </div>
+                    </div>
                 </div>
-                <button id="btn" class="buttone" name="button-1">Click Here</button>
             </div>
-        </main>
-        <footer>
+    </main>
 
+        <footer>
+            <nav class="nav">
+                <a class="vv-color-white vv-text-left">© 2020 Vasco Vilhena</a>
+            </nav>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <script src="public/js/scripts.js"></script>
     </body>
 </html>
